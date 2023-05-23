@@ -133,9 +133,29 @@ header{
             width: 80px;
         }
     }
+    @media (max-width : 790px){
+        padding: 40px 0;
+    }
     .lock{
         .content-head{
-
+            color: #23262B;
+            padding-top: 51px;
+            padding-bottom: 24px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            position: relative;
+            margin-left: 12px;
+            &::after{
+                content: "";
+                position: absolute;
+                background: #1ADDF1;
+                height: 28px;
+                width: 6px;
+                bottom: 24px;
+                left: -12px;
+                
+            }
         }   
         .description{
 
