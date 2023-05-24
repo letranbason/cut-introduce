@@ -168,6 +168,7 @@ header .contact form .btn {
   color: #1ADDF1;
   height: 6px;
   width: 80px;
+  margin: 0;
 }
 @media (max-width: 790px) {
   .introduce-site {
@@ -177,7 +178,6 @@ header .contact form .btn {
 .introduce-site .lock .content-head {
   color: #23262B;
   padding-top: 51px;
-  padding-bottom: 24px;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -190,9 +190,24 @@ header .contact form .btn {
   background: #1ADDF1;
   height: 28px;
   width: 6px;
-  bottom: 24px;
+  bottom: 0;
   left: -12px;
 }
+.introduce-site .lock .description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262B;
+  padding: 24px 0;
+}
+.introduce-site .lock .pic .descrip-pic {
+  background: #F3F3F3;
+  text-align: center;
+}
+.introduce-site .lock .description-below {
+  padding-top: 32px;
+}
+
 footer {
   background: url("../images/Mask.png");
   background-color: #005FBE;

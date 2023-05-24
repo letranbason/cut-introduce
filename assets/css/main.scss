@@ -131,6 +131,7 @@ header{
             color: #1ADDF1;
             height: 6px;
             width: 80px;
+            margin: 0;
         }
     }
     @media (max-width : 790px){
@@ -140,7 +141,6 @@ header{
         .content-head{
             color: #23262B;
             padding-top: 51px;
-            padding-bottom: 24px;
             font-weight: 700;
             font-size: 24px;
             line-height: 28px;
@@ -152,21 +152,30 @@ header{
                 background: #1ADDF1;
                 height: 28px;
                 width: 6px;
-                bottom: 24px;
+                bottom: 0;
                 left: -12px;
                 
             }
         }   
         .description{
-
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #23262B;
+            padding: 24px 0;
         }
         .pic{
+            
             .img-fluid{
 
             }
             .descrip-pic{
-
+                background: #F3F3F3;
+                text-align: center;
             }
+        }
+        .description-below{
+            padding-top: 32px;
         }
     }
 }
